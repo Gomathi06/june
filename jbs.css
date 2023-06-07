@@ -1,0 +1,96 @@
+
+*/{
+    box-sizing: border-box;
+    margin: 0;
+    width: 0;
+}
+
+
+.food{
+    background-color: white;
+    /* height: 100px;
+    width: 200px; */
+    word-wrap: normal;
+    color: black;
+    text-align: center;
+    
+} 
+.card{
+    display: flex;
+    position: absolute;
+}
+.container{
+    display: flex;
+}
+.award{
+    background-color: white;
+    word-wrap: normal;
+    color: black;
+    text-align: center;
+    
+}
+.bg{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+.bg img{
+    width: 900px ;
+    height: 700px;
+    opacity: 0.4;
+    color: white;
+}
+.text h1{
+    position: absolute;
+    left: 940px;
+    top:2000px;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.text p{
+    position: absolute;
+    left: 940px;
+    top:2050px;
+    color:white;
+    font-size: 50px;
+}
+
+.video{
+    width: 100%;
+    height: 500px;
+     background-color: brown; 
+        position: absolute;
+        text-align: center;
+        color: white;       
+}
+.video iframe{
+    height: 400px;
+    width: 700px;
+    left: 20px;
+    position: absolute;
+    top:50px;    
+}
+.video h1{
+    left: 800px;
+    position: absolute;
+    top:100px;
+    color: black;
+}
+.video p{
+    left:800px;
+    position: absolute;
+    top:150px;
+    font-size: 30px;
+    text-align: justify;
+}
+#ev{
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+}
+.end{
+    background-color: aqua;
+    width: 100%;
+    height: 400px;
+}
